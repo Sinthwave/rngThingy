@@ -47,5 +47,6 @@ function setLogAttempts(runs){
 }
 
 function resetRuns(){
+  runs = 0;
   sessionStorage.clear();
 }
